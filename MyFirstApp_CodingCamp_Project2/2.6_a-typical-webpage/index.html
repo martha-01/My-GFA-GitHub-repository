@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - 2.6_A Typical Webpage</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <header>
+    <button class="shorter"></button>
+    <button class="longer"></button>
+    <button class="shorter"></button>
+  </header>
+  <div class="body">
+    <main></main>
+    <aside></aside>
+  </div>
+</div>
+<!-- partial -->
+<script>
+let test = {
+    animals: ["cat", "turtle", "dolphin"],
+    hasManyAnimals: function(){
+        if(this.animals.length > 3){
+            return true}
+        else{
+            return false}
+    }
+};
+console.log(test.animals);
+console.log(test.hasManyAnimals());
+</script>
+</body>
+</html>

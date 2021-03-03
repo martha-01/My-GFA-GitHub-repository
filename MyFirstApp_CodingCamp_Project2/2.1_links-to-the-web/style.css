@@ -1,0 +1,16 @@
+a {
+  display: block;
+  font-family: 'Sen', sans-serif;
+  color: green;
+  font-size: 30px;
+  margin: 10px;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: lime;
+  text-decoration: none;
+}

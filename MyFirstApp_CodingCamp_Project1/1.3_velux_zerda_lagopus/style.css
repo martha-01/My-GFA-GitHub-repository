@@ -1,0 +1,11 @@
+p {
+  width: 400px;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 35px;
+  color: rgba(50, 50, 100, 0.7);
+  background-color: rgba(0, 125, 150, 0.8);
+  border: 5px solid mediumAquamarine;
+  padding: 30px;
+  padding-bottom: 80px;
+  margin: 0px 1000px 20px 5px;  
+}

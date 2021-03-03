@@ -1,0 +1,20 @@
+main {
+  border: 8px solid royalBlue;
+  width: 400px;
+  text-align: center;
+  margin: 50px;
+}
+
+p {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  padding: 45px 20px;
+  margin: 0px;
+}
+
+.redBackground {background: #E67676;}
+.yellowBackground {background: #F2F062;}
+.lightBlueBackground {background: #A9E6E6;}
+.mediumBlueBackground {background: #7692E4;}
+.whiteFonts {color: white;}

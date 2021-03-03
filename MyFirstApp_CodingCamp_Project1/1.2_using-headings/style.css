@@ -1,0 +1,14 @@
+h1 {
+  background: red;
+  padding: 100px;
+}
+
+h2 {
+  background: orange;
+  margin: 100px;
+}
+
+div {
+  margin-right: 1000px;
+  text-align: center;
+}

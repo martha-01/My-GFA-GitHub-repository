@@ -1,0 +1,56 @@
+div.container {
+  padding: 0;
+  position: relative
+  display: flex;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  right: 5px;
+  left: 5px;
+  height: 70px;
+  background-color: purple;
+  justify-content: center;
+  align-items: center;
+  padding-left: 95px;
+}
+
+button {
+  height: 30px;
+  background-color: cyan;
+  margin: 20px 8px;
+}
+
+.shorter {
+  width: 100px;
+}
+
+.longer {
+  width: 150px;
+}
+
+div.body {
+  height: 500px;
+  width: 85%;
+  margin: 80px 100px 10px 100px;
+  display: flex;
+}
+
+main {
+  background-color: yellow;
+  flex-grow: 4;
+}
+
+aside {
+  background-color: lime;
+  display: flex;
+  flex-grow: 1;
+}
+
+footer {
+  height: 80px;
+  width: 85%;
+  background-color: lightGrey;
+  margin: 0 100px;
+}

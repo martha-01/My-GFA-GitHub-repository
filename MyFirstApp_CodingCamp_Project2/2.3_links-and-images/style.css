@@ -1,0 +1,33 @@
+h1 {
+  font-family: 'Sen', sans-serif;
+  padding-left: 25px;
+}
+
+img {
+  width: 150px;
+  margin: 5px;
+  display: inline;
+}
+
+img:hover {
+  width: 200px;
+  margin: 0;
+}
+
+a {
+  display: block;
+}
+
+a:hover {
+  color: orange;
+  text-decoration: none;
+}
+
+div {
+  display: flex;
+}
+
+section {
+  margin: 10px;
+  text-align: center;
+}
