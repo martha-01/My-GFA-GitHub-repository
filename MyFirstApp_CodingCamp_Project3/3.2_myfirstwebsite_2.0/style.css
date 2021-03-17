@@ -1,19 +1,29 @@
 body {
   width: 100%;
-  margin: 0;
   background-color: black;
 }
 
-main {
+main, header {
   width: 80%;
   margin: 0 auto;
   background-color: white;
 }
 
+header {
+  position: fixed;
+  top: 0;
+  left: 10%;
+  width: 80.5%;
+  z-index: 100;
+}
+
+main {
+  margin-top: 89px;
+}
+
 nav {
   width: 100%;
   height: 120px;
-  position: relative;
   background-color: #222222;
   display: flex;
   align-items: center;
@@ -23,101 +33,112 @@ nav {
 nav a {
   text-decoration: none;
   color: white;
-  background-color: #222222;
   font-size: 50px;
   font-family: 'Baloo Da 2', cursive;
 }
-
 a:hover {
   color:burlywood;
 }
 
-div.quote {
-  width: 2300px;
-  margin: 0 0 60px;
-  background-image:url("haydenChristensen2.jpeg");
-  background-repeat: no-repeat;
-  background-size:59em
-}
-
-div#textWithinPicture h1 {
-  font-size: 60px;
-  margin-top: 0;
-  padding-top: 0;
-}
-
-div#textWithinPicture h3 {
-  font-size: 50px;
-  text-decoration-style: none;
-  padding-bottom: 0;
-  margin-bottom: 0;
-}
-
-div#textWithinPicture {
-  font-family: 'Playfair Display', serif;
-  text-decoration-style: none;
-  position: relative;
-  bottom: 180px;
-  right: 750px;
-  width: 300px;
-  height: 200px;
-}
-
 blockquote {
-  width: 600px;
-  margin: 0 0 60px;
+  width: 550px;
+  margin: 0 30px 50px 0;
   padding: 60px;
+  padding-top: 100px;
+  padding-left: 50px;
   background-color: #444444;
   color: white;
   font-family: 'Playfair Display', serif;
   font-size: 80px;
   font-weight: bolder;
   line-height: 150%;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align:start;
 }
-
-p#quotation_mark {
-  width: 50px;
-  height: 50px;
-  background-color: #444444;
+blockquote::before {
+  content: '“';
+  font-size: 300px;
+  background-color: "transparent";
   color: white;
-  font-family: 'PT Serif', serif;
-  font-size: 170px;
-  margin: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-article {
-  padding: 60px;
+  font-family: 'Coustard', serif;
 }
 
 section {
-  display:flex;
+  display: flex;
+  padding-bottom: 100px;
+  padding-top: 0;
 }
 
-h1 {
+article {
+  padding: 20px 50px 0 30px;
+}
+
+h4 {
+  font-size: 35px;
+}
+
+h5 {
+  font-size: 30px;
+}
+
+h6, h5, h4, h3, li {
+  font-family: 'Baloo Da 2', cursive;
+  font-stretch: extra-expanded;
+  line-height: 180%;
+  font-weight: 200;
+}
+
+h6, li {
+  font-size: 25px;
+  }
+
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+section#Bio ul li {
+  font-size: 35px;
+}
+h5.italic.bold {
+  margin-top: 0;
+}
+h4:not(.uppercase) {
   margin-bottom: 0;
 }
 
-h1.uppercase {
-  text-transform: uppercase;
+img {
+  width: 660px;
+  opacity: 0.8;
+  padding-top: 0;
+  z-index: -100;
+}
+div#textWithinPicture {
+  width: 350px;
+  position: absolute;
+  top: 550px;
+  left: 450px;
+}
+div#textWithinPicture h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 80px;
+  line-height: 100%;
+  margin-top: 0;
+  font-weight: 100;
+  font-style: normal;
+}
+div#textWithinPicture h3 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 40px;
+  line-height: 100%;
+  font-weight: 200;
+  margin-bottom: 0;
+  font-style: normal;
 }
 
-h3 {
-  font-style: italic;
-  margin-top: 5px;
-}
-
-h1, h3, h4, li {
-  font-stretch: extra-expanded;
-  line-height: 180%;
-}
-/*
 section#Bio {
   background-color: antiquewhite;
 }
@@ -133,4 +154,3 @@ section#Experience {
 section#Training {
   background-color:peru;
 }
-*/
