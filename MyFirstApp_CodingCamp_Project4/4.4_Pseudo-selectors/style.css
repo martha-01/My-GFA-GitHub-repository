@@ -1,0 +1,39 @@
+body {
+    width: 340px;
+    margin: 100px auto;
+    }
+
+h1 {
+    font-size: 40px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, tr {
+    border: 2px solid black;
+}
+
+h1 {
+    text-align: left;
+}
+
+td {
+    font-size: 18px;
+    text-align: left;
+    padding: 20px;
+}
+
+tr:hover {
+    background-color: #f76445;
+    cursor: pointer;
+}
+
+#first {
+    border-top-style: hidden;
+}
+
+#last {
+    border-bottom-style: hidden;
+}
