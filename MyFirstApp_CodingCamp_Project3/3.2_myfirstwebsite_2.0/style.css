@@ -119,12 +119,12 @@ img {
 div#textWithinPicture {
   width: 350px;
   position: absolute;
-  top: 550px;
-  left: 450px;
+  top: 600px;
+  left: 500px;
 }
 div#textWithinPicture h1 {
   font-family: 'Abril Fatface', cursive;
-  font-size: 80px;
+  font-size: 100px;
   line-height: 100%;
   margin-top: 0;
   font-weight: 100;
@@ -132,7 +132,7 @@ div#textWithinPicture h1 {
 }
 div#textWithinPicture h3 {
   font-family: 'Abril Fatface', cursive;
-  font-size: 40px;
+  font-size: 50px;
   line-height: 100%;
   font-weight: 200;
   margin-bottom: 0;
