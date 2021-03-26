@@ -1,0 +1,25 @@
+main {
+/*  font-weight: bolder;*/
+  width: 1000px;
+  font-size: 180%;
+}
+
+.tomato {
+  color: tomato;
+}
+
+.blueviolet {
+  color: blueviolet;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: upper-roman; 
+}
+
+.magenta {
+  color: magenta;
+}

@@ -1,0 +1,43 @@
+body {
+    background-color:antiquewhite;
+}
+article {
+    margin: 100px auto;
+    text-align: center;
+    background-color: bisque;
+    padding: 100px;
+    width: 1000px;
+    border:burlywood ridge 50px;
+}
+header {
+    font-size: 60px;
+    color: rgb(136, 100, 33);
+}
+p {
+    font-size: 60px;
+    padding: 3%;
+    width: 60%;
+    margin: 40px auto;
+    border: rgb(136, 100, 33) solid 10px;
+    background-color: burlywood;
+    color: rgb(136, 100, 33);
+}
+button {
+    font-size: 40px;
+    margin: 5px;
+}
+button:first-of-type {
+    background-color: darkseagreen;
+    color: rgb(64, 83, 64);
+}
+button:last-of-type {
+    background-color: rgb(108, 141, 108);
+    color:rgb(164, 218, 164);
+}
+#zero {
+    margin-top: 60px;
+    padding: 30px 10px;
+    background-color: rgb(136, 100, 33);
+    color: burlywood;
+    border:burlywood ridge 10px;
+}
