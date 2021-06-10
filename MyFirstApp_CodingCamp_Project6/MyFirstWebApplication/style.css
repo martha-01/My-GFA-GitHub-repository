@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: radial-gradient(circle, rgb(231, 229, 229), rgb(126, 123, 123));
+}
+
+#displayAreaWithArrows {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    width: 50%;
+    box-shadow: 3px 10px 0.5rem rgb(92, 91, 91);
+    background-color: white;
+    margin-bottom: 2rem;
+}
+
+#mainArea {
+    height: 100%;
+    width: 70%;
+    flex-grow: 15;
+    position: relative;
+}
+
+#pic {
+    object-fit:cover;
+    height: 28.5rem;
+    width: 41rem;
+}
+
+nav {
+    flex-grow: 1;
+    cursor: pointer;
+}
+
+#arrow_left, #arrow_right {
+    height: 40px;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(50, 50, 50, 0.8);
+    padding: 1rem;
+    width: 39rem;
+}
+
+h3 {
+    padding-bottom: 0.5rem;
+    color: white;
+}
+p {
+    color:gainsboro;
+}
+
+#thumbnails img {
+    object-fit: cover;
+    height: 4.5rem;
+    width: 4.5rem;
+    border: 3px solid rgba(247, 244, 244, 0.5);
+    cursor: pointer;
+}
+
+.active_thumbnail {
+    box-shadow: 0 10px 10px -5px black;
+}
+
+canvas {
+    margin: 0 0.5px;
+}
+
+#title0, #title1, #title2, #title3, #title4, #title5, #title6, #title7, #title8, #title9, #title10, #title11, #title12 {
+    padding: 3px 5px;
+    color: white;
+    font-size: smaller;
+    background-color: black;
+    box-shadow: 0 5px 10px -5px black;
+    position: absolute;
+    top: -127px;
+    left: 20px;
+}

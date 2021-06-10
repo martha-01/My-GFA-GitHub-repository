@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My First Webapplication</title>
+</head>
+<body onload="draw(), loadPhoto(0)">
+    <div id="displayAreaWithArrows">
+        <nav id="navigation_left"><img id="arrow_left" src="images/arrow_left.svg" alt="left arrow"></nav>
+        <figure id="mainArea">
+            <img id="pic">
+            <figcaption><h3 id="imageTitle"></h3><p id="caption"></p></figcaption>
+        </figure>
+        <nav id="navigation_right"><img id="arrow_right" src="images/arrow_right.svg" alt="right arrow"></nav>
+    </div>
+    <div id="triangles">
+        <canvas height="25px" width="95px" id="canvas0"></canvas>
+        <canvas height="25px" width="95px" id="canvas1"></canvas>
+        <canvas height="25px" width="95px" id="canvas2"></canvas>
+        <canvas height="25px" width="95px" id="canvas3"></canvas>
+        <canvas height="25px" width="95px" id="canvas4"></canvas>
+        <canvas height="25px" width="95px" id="canvas5"></canvas>
+        <canvas height="25px" width="95px" id="canvas6"></canvas>
+        <canvas height="25px" width="95px" id="canvas7"></canvas>
+        <canvas height="25px" width="95px" id="canvas8"></canvas>
+        <canvas height="25px" width="95px" id="canvas9"></canvas>
+        <canvas height="25px" width="95px" id="canvas10"></canvas>
+        <canvas height="25px" width="95px" id="canvas11"></canvas>
+        <canvas height="25px" width="95px" id="canvas12"></canvas>
+    </div>
+    <div id="thumbnails">
+        <span id="thumbnail0"><img id="0"><div id="title0"></div></span>
+        <span id="thumbnail1"><img id="1"><div id="title1"></div></span>
+        <span id="thumbnail2"><img id="2"><div id="title2"></div></span>
+        <span id="thumbnail3"><img id="3"><div id="title3"></div></span>
+        <span id="thumbnail4"><img id="4"><div id="title4"></div></span>
+        <span id="thumbnail5"><img id="5"><div id="title5"></div></span>
+        <span id="thumbnail6"><img id="6"><div id="title6"></div></span>
+        <span id="thumbnail7"><img id="7"><div id="title7"></div></span>
+        <span id="thumbnail8"><img id="8"><div id="title8"></div></span>
+        <span id="thumbnail9"><img id="9"><div id="title9"></div></span>
+        <span id="thumbnail10"><img id="10"><div id="title10"></div></span>
+        <span id="thumbnail11"><img id="11"><div id="title11"></div></span>
+        <span id="thumbnail12"><img id="12"><div id="title12"></div></span>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
