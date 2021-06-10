@@ -13,7 +13,7 @@ div#To-do-box {
     background-color: lightcyan;
     color: 5px solid;
 }
-section#input-section {
+#input-section {
     border: lightgrey 5px solid;
     height: 40px;
     padding: 0;
@@ -25,12 +25,31 @@ input {
     padding-left: 20px;
     font-size: 20px;
 }
-label {
-    padding-left: 2%;
+button#addBtn {
     font-weight: bold;
-    color: white;
+    height: 1.8rem;
+    width: 3.2rem;
+    background-color: rgba(255, 0, 255, 0.445);
+    font-size: 1rem;
 }
 
 ul {
     list-style-type: none;
+    font-size: 1.3rem;
+    max-height: 70%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+li {
+    margin: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    height: 1.2rem;
+}
+img#delete_icon {
+    height: 1.7rem;
 }
