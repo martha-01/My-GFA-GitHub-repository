@@ -20,7 +20,7 @@ body {
     width: 50%;
     box-shadow: 3px 10px 0.5rem rgb(92, 91, 91);
     background-color: white;
-    margin-bottom: 2% /*2rem*/;
+    margin-bottom: 5% /*2rem*/;
 }
 
 #mainArea {
@@ -78,31 +78,15 @@ p {
     box-shadow: 0 10px 10px -5px black;
     position: relative;
 }
-.active_thumbnail::before {
-    content: "";
-    position: absolute;
-    top: -70%;
-    left: 40%;
-    border: 10px solid transparent;
-    border-bottom-color: white;
-}
-img#0 {
-    position: relative;
-}
-img#0::before {
-    content: "";
-    width: 0;
-    height: 0;
-    position: absolute;
-    top: -70%;
-    left: 40%;
-    border: 50px solid transparent;
-    border-bottom-color: white;
-}
 
-/* canvas {
-    margin: 0 0.5px;
-} */
+.active_triangle {
+    content: "";
+    position: absolute;
+    bottom: 410% /*for my screen: 470%*/;
+    left: 22% /*for my screen: 35%*/;
+    border: 25px solid transparent;
+    border-bottom-color: white;
+}
 
 #title0, #title1, #title2, #title3, #title4, #title5, #title6, #title7, #title8, #title9, #title10, #title11, #title12 {
     padding: 3px 5px;
@@ -113,15 +97,4 @@ img#0::before {
     position: absolute;
     top: -127px;
     left: 20px;
-}
-div#section {
-    position: relative;
-}
-section {
-    content: "";
-    position: absolute;
-    top: -70%;
-    left: 40%;
-    border: 10px solid transparent;
-    border-bottom-color: white;
 }

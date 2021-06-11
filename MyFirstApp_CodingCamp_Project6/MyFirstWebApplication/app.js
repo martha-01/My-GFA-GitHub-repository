@@ -47,17 +47,17 @@ function loadPhoto(i){
     document.getElementById("caption").innerHTML = images[i].caption;
     [...document.querySelectorAll("div#thumbnails > span > img")].map(elem => elem.classList.remove("active_thumbnail"));
     document.getElementById(i).classList.add("active_thumbnail");
-    // [...document.getElementsByTagName("canvas")].map(elem => elem.style.visibility="hidden");
-    // document.getElementById("canvas"+i).style.visibility="visible";
+    [...document.querySelectorAll("div#thumbnails > span > span")].map(elem => elem.classList.remove("active_triangle"));
+    document.getElementById("thumbnail_triangle"+i).classList.add("active_triangle");
 }
 
 //Here we make the 13 thumbnail-images visible and clickable:
 for(let a=0; a<images.length; a++){
     document.getElementById(a).src = images[a].src;
+    document.getElementById("thumbnail"+a).style.position = "relative";
     document.getElementById(a).addEventListener("click", function(){
         loadPhoto(a);
     });
-    // document.getElementById("thumbnail"+a).style.position = "relative";
     document.getElementById("title"+a).innerHTML = images[a].imageTitle;
     document.getElementById("title"+a).style.visibility = "hidden";
     document.getElementById(a).addEventListener("mouseenter", function() {
