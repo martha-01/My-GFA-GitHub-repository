@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <title>My First Webapplication</title>
 </head>
-<body onload="draw(), loadPhoto(0)">
+<body onload="/*draw(), */loadPhoto(0)">
     <div id="displayAreaWithArrows">
         <nav id="navigation_left"><img id="arrow_left" src="images/arrow_left.svg" alt="left arrow"></nav>
         <figure id="mainArea">
@@ -16,7 +16,7 @@
         </figure>
         <nav id="navigation_right"><img id="arrow_right" src="images/arrow_right.svg" alt="right arrow"></nav>
     </div>
-    <div id="triangles">
+    <!-- <div id="triangles">
         <canvas height="25px" width="95px" id="canvas0"></canvas>
         <canvas height="25px" width="95px" id="canvas1"></canvas>
         <canvas height="25px" width="95px" id="canvas2"></canvas>
@@ -30,7 +30,7 @@
         <canvas height="25px" width="95px" id="canvas10"></canvas>
         <canvas height="25px" width="95px" id="canvas11"></canvas>
         <canvas height="25px" width="95px" id="canvas12"></canvas>
-    </div>
+    </div> -->
     <div id="thumbnails">
         <span id="thumbnail0"><img id="0"><div id="title0"></div></span>
         <span id="thumbnail1"><img id="1"><div id="title1"></div></span>
@@ -46,7 +46,10 @@
         <span id="thumbnail11"><img id="11"><div id="title11"></div></span>
         <span id="thumbnail12"><img id="12"><div id="title12"></div></span>
     </div>
-
+    <br><br>
+    <div id="section">
+        <section></section>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
